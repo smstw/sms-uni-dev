@@ -38,6 +38,10 @@ API 文件要怎麼寫？放哪裡？何時 generate 成 HTML? 各種細部問�
 
 我希望除了 Windwalker 與 JConsole 以外，還要再加一層是我們自己 SMS 的中間層，因為前兩者是公開套件，不會為了我們自己的流程優化，而 SMS 的中介套件可以根據我們自己的流程製作各種接口，至於如何實作就事我們要討論的了。
 
+## 其他的討論方式
+
+[HackPad](https://uiuxlink.hackpad.com/) 最近挺紅的，但我沒什麼用過，用這討論事情會比較方便嘛？
+
 ## Reference
 
 - [Gulp SMS](https://github.com/smstw/gulp-sms)
