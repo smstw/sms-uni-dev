@@ -30,6 +30,10 @@ https://trello.com/c/lGOX04f2/32-9
 
 需要避免開發人員啟動專案的負擔太重。
 
+### 文章更新要刷 Schema 不方便
+
+未來改用 Ezset include 文章
+
 ### 其他各類細項
 
 API 文件要怎麼寫？放哪裡？何時 generate 成 HTML? 各種細部問題歡迎補充
