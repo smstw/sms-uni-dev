@@ -18,8 +18,21 @@ class ExtensionInstallerPlugin implements PluginInterface
 	 */
 	public function activate(Composer $composer, IOInterface $io)
 	{
-		$installer = new ExtensionInstaller($io, $composer);
-
-		$composer->getInstallationManager()->addInstaller($installer);
+		if(!defined('_JEXEC'))
+	        {
+	            $_SERVER['HTTP_HOST']   = 'localhost';
+	            $_SERVER['HTTP_USER_AGENT'] = 'Composer';
+	
+	            define('_JEXEC', 1);
+	            define('DS', DIRECTORY_SEPARATOR);
+	
+	            define('JPATH_BASE', realpath('..'));
+	            require_once JPATH_BASE . '/includes/defines.php';
+	
+	            require_once JPATH_BASE . '/includes/framework.php';
+	            require_once JPATH_LIBRARIES . '/import.php';
+	
+	            require_once JPATH_LIBRARIES . '/cms.php';
+	        }
 	}
 }
