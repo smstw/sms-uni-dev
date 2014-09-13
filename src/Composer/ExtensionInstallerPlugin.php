@@ -18,6 +18,8 @@ class ExtensionInstallerPlugin implements PluginInterface
 	 */
 	public function activate(Composer $composer, IOInterface $io)
 	{
+		// We prepare some system path first, make sure Joomla Composer working well.
+		
 		if(!defined('_JEXEC'))
 	        {
 	            $_SERVER['HTTP_HOST']   = 'localhost';
