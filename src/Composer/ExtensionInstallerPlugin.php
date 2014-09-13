@@ -18,6 +18,8 @@ class ExtensionInstallerPlugin implements PluginInterface
 	 */
 	public function activate(Composer $composer, IOInterface $io)
 	{
+		echo "SMS Plugin";
+		
 		if(!defined('_JEXEC'))
 	        {
 	            $_SERVER['HTTP_HOST']   = 'localhost';
