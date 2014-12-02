@@ -1,0 +1,10 @@
+# System
+
+# Bower
+/media
+
+# Composer
+/vendor
+
+# Test
+/phpunit.xml
