@@ -3,6 +3,9 @@
 # Bower
 /media
 
+# SMS
+/etc/config.json
+
 # Composer
 /vendor
 
